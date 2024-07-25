@@ -1,0 +1,87 @@
+body,
+html {
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    font-family: "Outfit", sans-serif;
+    background-color: #feed01;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 350px;
+    height: 580px;
+    background-color: #fff;
+    border: solid black 1px;
+    border-radius: 20px;
+    box-shadow: 10px 10px black;
+    padding: 0px 30px;
+}
+
+.headimg {
+    height: 275px;
+    display: flex;
+    justify-content: center;
+}
+
+
+.headimg img {
+    width: 100%;
+    margin-top: 30px;
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+.konu {
+    display: inline-block;
+    background-color: #feed01;
+    margin: 20px 0 10px 0;
+    padding: 8px 15px;
+    border-radius: 8px;
+    font-weight: 800;
+
+}
+
+.datee {
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.baslik {
+    font-weight: 900;
+    font-size: 25px;
+    margin: 20px 0 15px 0;
+
+}
+
+.baslik .yazi {
+    font-weight: 300;
+    font-size: 18px;
+    display: block;
+    margin-top: 10px;
+
+}
+
+.user {
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.user img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.user span {
+    margin-left: 15px;
+}
+
+.ayt {
+    font-weight: 900;
+    font-size: 16px;
+}
